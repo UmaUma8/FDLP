@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>MÒDUL 6. EXERCICI 1</h3>
+    <p>Calculadora arcaica. El programa demana a l’usuari que introdueixi dos números i l’operació que desitja
+        realitzar.
+        <br>
+        Cada operació (suma, resta, multiplicació, divisió) estarà programada en una funció diferent.
+    </p><br>
+
+    <p>Introdueix dos números i a continuació sel.lecciona segons el càlcul que vulguis fer: </p>
+
+    <input type="number" id="num1" placeholder="Introdueix un número"><br>
+    <br>
+    <input type="number" id="num2" placeholder="Introdueix altre número">
+    <br>
+    <br>
+    <input type="button" value="+" onclick="addition()">
+    <input type="button" value="-" onclick="subtraction()">
+    <input type="button" value="*" onclick="multiply()">
+    <input type="button" value="/" onclick="divide()">
+    <input type="button" value="%" onclick="modul()">
+    <br>
+    <br>
+    <br>
+    <p id="result"></p>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
